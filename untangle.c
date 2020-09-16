@@ -37,7 +37,7 @@
 #include "tree234.h"
 
 #define CIRCLE_RADIUS 6
-#define DRAG_THRESHOLD (CIRCLE_RADIUS * 2)
+#define DRAG_THRESHOLD (CIRCLE_RADIUS * 10)
 #define PREFERRED_TILESIZE 64
 
 #define FLASH_TIME 0.30F
