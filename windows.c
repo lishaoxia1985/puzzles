@@ -2373,6 +2373,7 @@ static void new_game_size(frontend *fe, float scale)
     int x, y;
 
     get_max_puzzle_size(fe, &x, &y);
+    midend_reset_tilesize(fe->me);
     midend_size(fe->me, &x, &y, false);
 
     if (scale != 1.0) {

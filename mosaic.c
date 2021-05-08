@@ -24,7 +24,7 @@
 #define DEFAULT_SIZE 10
 #define MAX_TILES 10000
 #define MAX_TILES_ERROR "Maximum size is 10000 tiles"
-#define DEFAULT_TILE_SIZE 32
+#define DEFAULT_TILE_SIZE 48
 #define DEBUG_IMAGE 1
 #undef DEBUG_IMAGE
 #define FLASH_TIME 0.5F
